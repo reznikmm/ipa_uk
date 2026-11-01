@@ -1,0 +1,17 @@
+name = "ipa_uk"
+description = "IPA (international phonetic alphabet) for ukrainian words"
+version = "0.1.0-dev"
+
+authors = ["Max Reznik"]
+maintainers = ["Max Reznik <reznikmm@gmail.com>"]
+maintainers-logins = ["reznikmm"]
+licenses = "Apache-2.0 WITH LLVM-exception"
+website = "https://github.com/reznikmm/ipa_uk"
+tags = []
+
+[build-switches]
+"*".Ada_Version = "Ada2022"
+development.optimization = ["-O0"]
+development.style_checks = ["-gnaty", "-gnaty-B"]
+development.contracts = "Yes"
+"*".debug_info = "Yes"
